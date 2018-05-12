@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi", "TodoApi\TodoApi.csproj", "{578FAA68-7157-439D-B7BC-8EF50F0E9D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{3D84F63F-2F12-41C5-8D44-544DBFBD4907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventApi", "EventApi\EventApi.csproj", "{31E9F6B8-6B3B-4592-9C9E-F908A54BCDB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{DB9C184B-CA0E-421D-B737-EFB5F63138EB}"
+ProjectSection(SolutionItems) = preProject
+	TodoApi.postman_collection.json = TodoApi.postman_collection.json
+	EventApi.postman_collection.json = EventApi.postman_collection.json
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{578FAA68-7157-439D-B7BC-8EF50F0E9D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578FAA68-7157-439D-B7BC-8EF50F0E9D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578FAA68-7157-439D-B7BC-8EF50F0E9D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578FAA68-7157-439D-B7BC-8EF50F0E9D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D84F63F-2F12-41C5-8D44-544DBFBD4907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D84F63F-2F12-41C5-8D44-544DBFBD4907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D84F63F-2F12-41C5-8D44-544DBFBD4907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D84F63F-2F12-41C5-8D44-544DBFBD4907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E9F6B8-6B3B-4592-9C9E-F908A54BCDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E9F6B8-6B3B-4592-9C9E-F908A54BCDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E9F6B8-6B3B-4592-9C9E-F908A54BCDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E9F6B8-6B3B-4592-9C9E-F908A54BCDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
